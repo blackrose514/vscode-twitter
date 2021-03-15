@@ -3,6 +3,7 @@
   "displayName": "VSCode Twitter",
   "description": "Post tweets directly from VSCode",
   "version": "0.0.1",
+  "private": true,
   "engines": {
     "vscode": "^1.54.0"
   },
@@ -12,6 +13,11 @@
   "activationEvents": [
     "*"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/blackrose514/vscode-twitter.git"
+  },
+  "homepage": "https://github.com/blackrose514/vscode-twitter",
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
